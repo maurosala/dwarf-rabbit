@@ -22,7 +22,7 @@ spec:
       - name: keptn
         value: ""
         type: keptn
-        icon: fa-solid fa-fire
+        icon: fa-solid fa-receipt
     owner: maurosala
   name: dwarf-rabbit
   compositionSelector:
