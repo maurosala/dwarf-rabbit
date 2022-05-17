@@ -1,0 +1,44 @@
+apiVersion: templates.krateo.io/v1alpha1
+kind: keptn-stack
+metadata:
+  name: keptn-stack
+spec:
+  dashboard:
+    description: keptn stack
+    icon: fa-solid fa-frog
+    tags:
+      - keptn
+    links:
+      - url: https://github.com/maurosala/dwarf-rabbit
+        title: maurosala/dwarf-rabbit
+        icon: fa-brands fa-git
+    plugins:
+      - name: documentation
+        values:
+          - README.md
+        type: doc
+        icon: fa-solid fa-book-skull
+        endpointName: github
+      - name: keptn
+        value: ""
+        type: keptn
+        icon: fa-solid fa-fire
+    owner: maurosala
+  name: dwarf-rabbit
+  compositionSelector:
+    matchLabels:
+      platform: aws
+  fromRepo:
+    domain: github.com
+    provider: github
+    apiUrl: https://api.github.com/
+    repositoryName: krateo-template-aws-stack
+    organizationName: krateoplatformops
+    schema: https
+  toRepo:
+    domain: github.com
+    provider: github
+    apiUrl: https://api.github.com/
+    repositoryName: dwarf-rabbit
+    organizationName: maurosala
+    schema: https
