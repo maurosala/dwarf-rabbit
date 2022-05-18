@@ -23,6 +23,7 @@ spec:
         value: "[krateo]demo"
         type: keptn
         icon: fa-solid fa-receipt
+        endpointName: keptn
     owner: maurosala
   name: dwarf-rabbit
   compositionSelector:
