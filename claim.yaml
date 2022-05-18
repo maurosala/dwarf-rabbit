@@ -20,7 +20,7 @@ spec:
         icon: fa-solid fa-book-skull
         endpointName: github
       - name: keptn
-        value: ""
+        value: "[krateo]demo"
         type: keptn
         icon: fa-solid fa-receipt
     owner: maurosala
