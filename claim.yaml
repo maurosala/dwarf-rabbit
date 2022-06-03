@@ -24,11 +24,6 @@ spec:
         type: keptn
         icon: fa-solid fa-receipt
         endpointName: keptn
-      - name: sonarcloud
-        type: codequality
-        icon: fa-solid fa-tower-broadcast
-        value: fbrgsmn.mobile.app
-        endpointName: sonarcloud
     owner: maurosala
   name: dwarf-rabbit
   compositionSelector:
