@@ -24,6 +24,13 @@ spec:
         type: keptn
         icon: fa-solid fa-receipt
         endpointName: keptn
+      - name: kubernetes
+        value: deploymentId=62ab322906b13e186722a1ad
+        type: kubernetes
+        icon: fa-solid fa-hammer
+        params:
+          - api: apis/git.krateo.io/v1alpha1/repoes
+            kind: Repo-params
     owner: maurosala
   name: dwarf-rabbit
   compositionSelector:
