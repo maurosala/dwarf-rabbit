@@ -33,7 +33,7 @@ spec:
             kind: Repo-params
       - name: jenkins
         values:
-          - "[JXP][dummy-java-app][feature/PJ495090-6286-gandalf-v2-api]"
+          - "[JXP][dummy-java-app]feature/PJ495090-6286-gandalf-v2-api"
         type: pipeline
         endpointName: jenkins
         icon: fa-brands fa-jenkins
