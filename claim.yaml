@@ -32,7 +32,8 @@ spec:
           - api: apis/git.krateo.io/v1alpha1/repoes
             kind: Repo-params
       - name: jenkins
-        value: "[JXP][dummy-java-app][feature%252FPJ495090-6286-gandalf-v2-api]"
+        values:
+          - "[JXP][dummy-java-app][feature%252FPJ495090-6286-gandalf-v2-api]"
         type: pipeline
         endpointName: jenkins
         icon: fa-brands fa-jenkins
