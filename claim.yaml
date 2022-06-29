@@ -2,6 +2,7 @@ apiVersion: templates.krateo.io/v1alpha1
 kind: keptn-stack
 metadata:
   name: keptn-stack
+  deploymentId: 62ab322906b13e186722a1ad
 spec:
   dashboard:
     description: keptn stack
