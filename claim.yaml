@@ -38,6 +38,11 @@ spec:
         type: pipeline
         endpointName: jenkins
         icon: fa-brands fa-jenkins
+      - name: resources
+        value: fake-res
+        type: argocd
+        icon: fa-solid fa-diagram-project
+        endpointName: argocd-silver
     owner: maurosala
   name: dwarf-rabbit
   compositionSelector:
