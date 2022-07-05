@@ -2,7 +2,8 @@ apiVersion: templates.krateo.io/v1alpha1
 kind: AwsStack
 metadata:
   name: dwarf-rabbit
-  deploymentId: 62ab322906b13e186722a1ad
+  labels:
+    deploymentId: 62ab322906b13e186722a1ad
 spec:
   dashboard:
     description: keptn stack
