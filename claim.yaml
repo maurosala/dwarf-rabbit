@@ -44,7 +44,6 @@ spec:
         icon: fa-solid fa-diagram-project
         endpointName: argocd-silver
     owner: maurosala
-  name: dwarf-rabbit
   compositionSelector:
     matchLabels:
       platform: aws
